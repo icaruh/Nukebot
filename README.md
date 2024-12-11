@@ -1,3 +1,3 @@
-cd DiscordBot 
+cd Nukebot 
 
 dotnet run
