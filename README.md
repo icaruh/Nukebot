@@ -1,2 +1,3 @@
 cd DiscordBot 
+
 dotnet run
