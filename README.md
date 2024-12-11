@@ -1,1 +1,2 @@
-"# Nukebot" 
+cd DiscordBot 
+dotnet run
