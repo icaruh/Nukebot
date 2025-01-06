@@ -33,3 +33,4 @@ C:\Users\onlin\DiscordBot\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Ab
 C:\Users\onlin\DiscordBot\bin\Debug\net9.0\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\onlin\DiscordBot\bin\Debug\net9.0\Microsoft.Extensions.FileSystemGlobbing.dll
 C:\Users\onlin\DiscordBot\bin\Debug\net9.0\Microsoft.Extensions.Primitives.dll
+C:\Users\onlin\DiscordBot\obj\Debug\net9.0\DiscordBot.sourcelink.json
