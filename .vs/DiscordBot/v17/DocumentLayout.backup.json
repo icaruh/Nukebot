@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\onlin\\DiscordBot\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|c:\\users\\onlin\\discordbot\\comandos\\comandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|solutionrelative:comandos\\comandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|c:\\users\\onlin\\discordbot\\logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|solutionrelative:logging.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -11,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|c:\\users\\onlin\\discordbot\\comandos\\comandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|solutionrelative:comandos\\comandos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|c:\\users\\onlin\\discordbot\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{620F9ACA-C3B6-47FB-9E0B-1EBB9C444CDD}|DiscordBot.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +34,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "AppSettings.json",
+              "DocumentMoniker": "C:\\Users\\onlin\\DiscordBot\\AppSettings.json",
+              "RelativeDocumentMoniker": "AppSettings.json",
+              "ToolTip": "C:\\Users\\onlin\\DiscordBot\\AppSettings.json",
+              "RelativeToolTip": "AppSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-06T13:07:00.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Logging.cs",
               "DocumentMoniker": "C:\\Users\\onlin\\DiscordBot\\Logging.cs",
               "RelativeDocumentMoniker": "Logging.cs",
@@ -38,31 +54,29 @@
               "RelativeToolTip": "Logging.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-11T10:02:08.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-11T10:02:08.222Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\onlin\\DiscordBot\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\onlin\\DiscordBot\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAYwA4AAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAYwA4AAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-06T21:06:49.231Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-06T21:06:49.231Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Comandos.cs",
               "DocumentMoniker": "C:\\Users\\onlin\\DiscordBot\\Comandos\\Comandos.cs",
               "RelativeDocumentMoniker": "Comandos\\Comandos.cs",
               "ToolTip": "C:\\Users\\onlin\\DiscordBot\\Comandos\\Comandos.cs",
               "RelativeToolTip": "Comandos\\Comandos.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAzwIwAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAKIAAAAAAAAAAAAowK0AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-06T20:48:43.165Z",
               "EditorCaption": ""

