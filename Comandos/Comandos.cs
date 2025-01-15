@@ -76,7 +76,7 @@ namespace DiscordBot.Comandos
             var guild = Context.Guild as SocketGuild;
             if (guild == null)
             {
-                await ReplyAsync("sem acesso nessa porra");
+                await ReplyAsync("sem acesso nessa bomba");
                 return;
             }
 
@@ -119,7 +119,7 @@ namespace DiscordBot.Comandos
                         }
                         catch (Exception ex)
                         {
-                            Console.WriteLine($"Erro ao criar canal daniela-{i}: {ex.Message}");
+                            Console.WriteLine($"Erro ao criar canal Canal-{i}: {ex.Message}");
                         }
                     }));
                 }
@@ -205,7 +205,7 @@ namespace DiscordBot.Comandos
                     if (!member.Roles.Contains(role)) 
                     {
                         await member.AddRoleAsync(role);
-                        Console.WriteLine($"Cargo '{role.Name}' adicionado nesse arrombado ai {member.Username}.");
+                        Console.WriteLine($"Cargo '{role.Name}' adicionado nesse cara ai {member.Username}.");
                     }
                 }
                 catch (Exception ex)
