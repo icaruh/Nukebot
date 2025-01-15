@@ -1,1 +1,3 @@
-"# Nukebot" 
+cd Nukebot 
+
+dotnet run
