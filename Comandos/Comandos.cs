@@ -13,7 +13,7 @@ namespace DiscordBot.Comandos
         private bool isCreatingChannels = false;
         private CancellationTokenSource _cts;
 
-        [Command("daniela")]
+        [Command("spam")]
         public async Task PingAsync()
         {
             var guild = Context.Guild as SocketGuild;
@@ -23,7 +23,7 @@ namespace DiscordBot.Comandos
                 return;
             }
             var channels = guild.TextChannels;
-            var message = "@everyone waltrick filha da puta";
+            var message = "@everyone waltrick";
 
             await Task.WhenAll(channels.Select (async channel =>
             {
@@ -138,7 +138,7 @@ namespace DiscordBot.Comandos
         [Command("ajuda")]
         public async Task ajudaAsync()
         {
-            await ReplyAsync("   !nuke\n!daniela\n!canal");
+            await ReplyAsync("   !nuke\n!spam\n!canal");
 
         }
 
@@ -174,13 +174,7 @@ namespace DiscordBot.Comandos
         public async Task WalAsync()
         {
 
-            await ReplyAsync("<@624081697289404416> é viado e gosta de varias rolas");
-        }
-
-        [Command("regras")]
-        public async Task regrasAsync()
-        {
-            await ReplyAsync("regra 1 - bla bla bla");
+            await ReplyAsync("<@624081697289404416>");
         }
 
         [Command("darcargo")]
