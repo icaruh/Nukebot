@@ -50,14 +50,14 @@ namespace DiscordBot
             // Usando a sintaxe correta com async
             _client.Ready += async () =>
             {
-                Console.WriteLine("@everyone to pronto pra besteira");
+                Console.WriteLine("@everyone to pronto");
 
                 ulong channelId = 1183593740791717950; // id do canal da msg 
                 var channel = _client.GetChannel(channelId) as ITextChannel;
 
                 if (channel != null)
                 {
-                    await channel.SendMessageAsync("Daniela?");
+                    await channel.SendMessageAsync("Lol?");
                 }
             };
 
